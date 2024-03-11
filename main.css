@@ -1,0 +1,61 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 30px;
+}
+.introduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduce > div {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+main {
+  box-sizing: border-box;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 50dvh;
+}
+
+main > div {
+  box-sizing: border-box;
+  margin: 0 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+}
+
+a {
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+}
